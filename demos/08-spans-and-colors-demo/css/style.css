@@ -1,0 +1,15 @@
+h1{
+    color: #3f04c7;
+    background-color: lightgreen;
+}
+#p1 {
+    color: lightgreen;
+    background-color: black;
+    padding: 15px;
+}
+span {
+    font-weight: 700;
+}
+#s1 {
+    color: yellowgreen;
+}
