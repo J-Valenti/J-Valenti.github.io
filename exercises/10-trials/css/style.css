@@ -22,16 +22,19 @@
 #t5-s1 {
     background-color: yellow;
 }
-#t6-s1, #t6-s2 {
+#t6-s1, 
+#t6-s2 {
     font-weight: bold;
 }
-#t7-s1, #t7-s3 {
+#t7-s1, 
+#t7-s3 {
     font-style: italic;
 }
 #t7-s2 {
     font-weight: bold;
 }
-#t8-s1, #t8-s2 {
+#t8-s1, 
+#t8-s2 {
     text-decoration: underline;
 }
 #t9-s1 {
@@ -41,14 +44,17 @@
     font-size: 12px;
     font-family: sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 #t10-s2 {
     font-size: 48px;
     font-family: sans-serif;
+    text-align: center;
 }
 #t10-s3 {
     font-size: 24px;
     font-family: sans-serif;
     font-style: italic;
     font-weight: lighter;
+    text-align: center;
 }
