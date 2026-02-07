@@ -11,10 +11,12 @@
 .blue {
     background-color: lightblue;
     rotate: -30deg;
+    border-radius: 10px;
 }
 .green {
     background-color: lightgreen;
     rotate: -10deg;
+    border-radius: 15px;
 }
 img {
     width: 150px;
