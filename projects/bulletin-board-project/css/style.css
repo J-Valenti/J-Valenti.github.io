@@ -1,0 +1,59 @@
+.post-it {
+    background-color: lightyellow;
+    width: 200px;
+    min-height: 200px;
+    padding: 24px;
+    margin: 24px;
+    vertical-align: top;
+    display: inline-block;
+    box-shadow: 6px 4px 10px #24242491;
+}
+.blue {
+    background-color: lightblue;
+    rotate: -30deg;
+}
+.green {
+    background-color: lightgreen;
+    rotate: -10deg;
+}
+img {
+    width: 150px;
+    height: 150px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.pink {
+    background-color: lightpink;
+    font-family: f;
+    rotate: 20deg;
+}
+.pink-2 {
+    background-color: lightpink;
+    font-family: f;
+    rotate: -12deg;
+}
+.pin {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    width: 80 px;
+    rotate: -20deg;
+}
+.pin-2 {
+    position: absolute;
+    top: 580px;
+    left: 350px;
+    width: 80 px;
+    rotate: -20deg;
+}
+.pin-3 {
+    position: absolute;
+    top: 180px;
+    left: 710px;
+    width: 80 px;
+    rotate: 30deg;
+}
+#brunch {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
