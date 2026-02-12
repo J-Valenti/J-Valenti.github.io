@@ -1,0 +1,32 @@
+div {
+    background-color: #d9d8d6;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+div p {
+    margin-top: 0px;
+}
+.btn {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #1115;
+    border: 2px solid #ff6200;
+    transition: background-color 0.5s, color 0.5s;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #ff6200;
+}
+.btn.alt {
+    background-color: transparent;
+    border-color: #0a9cda;
+    color: #0a9cda;
+}
+.btn.alt:hover {
+    background-color: #0a9cda;
+    color: white;
+}
