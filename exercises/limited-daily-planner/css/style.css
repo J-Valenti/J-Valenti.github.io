@@ -1,0 +1,47 @@
+div {
+    padding: 50px;
+    margin: 50px;
+    border: 5px double #0011ff;
+    border-radius: 25px;
+    background-color: #cc95ff;
+}
+ul {
+    padding: 25px 50px;
+    margin: 15px;
+    background-color: rgb(180, 245, 251);
+    border-radius: 25px;
+}
+li {
+    padding: 5px;
+}
+.btn {
+    text-decoration: none;
+    background-color: #ac0439;
+    padding: 2px 30px;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #ff0066;
+    transition: background-color 0.5s, color 0.5s;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #ff0066;
+}
+#morning .completed,
+#afternoon .completed,
+#evening .completed {
+    text-decoration: line-through;
+}
+#morning .important,
+#afternoon .important,
+#evening .important {
+    font-weight: bolder;
+    color: #ff0066;
+}
+#morning .completed.important,
+#afternoon .completed.important,
+#night .completed.important {
+    background-color: #080f97;
+    border-radius: 15px;
+}
