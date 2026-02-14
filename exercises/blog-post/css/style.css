@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Quintessential&family=Red+Rose:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -5,7 +6,12 @@
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Titillim Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-family: "Limelight", sans-serif;
 }
 .single-column {
     width: 80%;
