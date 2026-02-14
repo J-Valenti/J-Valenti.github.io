@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&family=Yatra+One&display=swap');
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -5,7 +6,10 @@
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Lexned Peta", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 .single-column {
     width: 80%;
@@ -20,10 +24,25 @@ img {
 }
 h3,
 h1,
-h2,
+h2 {
+    padding: 25px 0px;
+    text-align: center;
+    font-family: 
+        "Yatra One", 
+        system-ui,
+        'Open Sans', 
+        'Helvetica Neue', 
+        sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 p {
     padding: 25px 0px;
     text-align: center;
+    font-family: "Lexned Peta", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 .light-container {
     background-color: rgb(207, 75, 75);
@@ -55,6 +74,6 @@ p {
     padding-bottom: 50px;
 }
 .darker-container {
-    background-color: #5e0687;
+    background-color: #2c023f;
     color: whitesmoke;
 }
