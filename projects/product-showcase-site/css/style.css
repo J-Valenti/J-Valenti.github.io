@@ -43,9 +43,11 @@ p {
     font-style: normal;
     font-optical-sizing: auto;
     font-weight: 500;
+    font-size: 19px;
+    color: whitesmoke;
 }
 .light-container {
-    background-color: rgb(207, 75, 75);
+    background-color: #cf4b4b;
     padding-bottom: 50px;
 }
 .btn {
@@ -74,6 +76,33 @@ p {
     padding-bottom: 50px;
 }
 .darker-container {
-    background-color: #2c023f;
+    background-color: #33203c;
     color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.jake {
+    color: #00c8ff;
+}
+.lighter-container {
+    background-color: #065151;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ney {
+    color: #00ff95;
+}
+.medium-container {
+    background-color: #5b713b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ban {
+    color: #ffdd00;
+}
+.extra-container {
+    background-color: #362a1d;
+    color: #04d508;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
