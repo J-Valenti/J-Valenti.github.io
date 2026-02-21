@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Quintessential&family=Red+Rose:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    font-family: "Titillim Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-family: "Limelight", sans-serif;
+}
+.single-column {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 20px;
+    border: 15px solid gold;
+}
+.two-column {
+    display: flex ;
+}
+
+.sidebar {
+    width: 350px;
+}
+
+.sidebar h2 {
+    background-color: purple;
+    margin: 0px;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    border: 15px solid gold;
+    border-bottom: none;
+}
+.sidebar ul {
+    background-color: rgb(247, 215, 247);
+    border: 15px solid gold;
+    border-top: none;
+    margin: 0px 0px 25px;
+    list-style-type: none;
+    padding: 0px 15px;
+}
+.sidebar li {
+    padding: 10px 0px;
+    border-bottom: 1px solid purple;
+}
+.sidebar li:last-child {
+    border-bottom: none;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+body {
+    background-color: purple;
+}
+p {
+    margin: 24px 0px;
+}
+.main {
+    order: 1;
+    flex: 1;
+    max-width: 650px;
+}
