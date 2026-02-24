@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+/* Resets Below */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Resets Above */
+.three-columns {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+}
+.letter-m {
+    color: red;
+}
+.letter-e {
+    color: blue;
+}
+.letter-b {
+    color: #e9e908;
+}
+.letter-a {
+    color: #00c300;
+}
+.letter-y {
+    color: #c002c0;
+}
+/* Thumbnail images */
+.thumbnail img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.thumbnail {
+    height: 300px;
+    width: 300px;
+}
+/* Thumbnail images end */
+
+/* Featured started */
+.featured img {
+    height: 100%;
+    width: 100%;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+/* featured ended */
+
+/* product info */
+.contact-img {
+    display: inline-block;
+}
+.contact-name {
+    display: inline-block;
+}
+.logo {
+    height: 55px;
+    width: 55px;
+}
+.number {
+    font-weight: lighter;
+    color: gray;
+}
+.seller {
+    color: black;
+}
+.klarna {
+    font-family: "Signika", sans-serif;
+    font-weight: bold;
+}
+.cond {
+    margin: 25px 0px;
+}
+.quant {
+    margin: 25px 0px;
+}
+.colored {
+    color: red;
+}
+.lighter {
+    color: gray;
+}
+.bolded {
+    font-weight: bold;
+}
+.word-box {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px 25px 5px 15px;
+    border-radius: 10px;
+    min-width: 80px;
+}
+/* product info */
+
+/* buttons */
+.buttons a {
+    display: block;
+}
+.btn {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    background-color: #0000ff;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    border: 2px solid #0000ff;
+    transition: background-color 0.5s, color 0.5s;
+    margin: 5px;
+}
+.white {
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff;
+    color: #0000ff;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    border: 2px solid #0000ff;
+    transition: background-color 0.5s, color 0.5s;
+}
+.btn:hover {
+    background-color: #d9d9d9;
+    color: blue;
+}
