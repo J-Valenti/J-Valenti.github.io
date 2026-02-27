@@ -63,4 +63,5 @@ body {
     flex: 1;
     height: 250px;
     gap: 25px;
+    margin: 5px;
 }
