@@ -18,11 +18,40 @@ img {
     margin: 0px auto;
 }
 
-/* landscape grid */
+/* landscape/ portrait grid */
 .basic-gal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    border: 3px solid #c90481;
+    padding: 25px;
 }
-/* portrait grid */
 
 /* mixed grid */
+.cropped-gal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 25px;
+    border: 3px solid #c90481;
+    padding: 25px;
+}
+.cropped-gal img {
+    height: 100%;
+}
+/* mason gallery */
+.hm-gal {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hm-gal img {
+    flex: 1;
+    height: 250px;
+    gap: 25px;
+}
+.vm-gal {
+    columns: 3 auto;
+}
+.vm-gal img {
+    margin-bottom: 25px;
+}
