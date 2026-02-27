@@ -17,7 +17,6 @@ img {
     max-width: 1280px;
     margin: 0px auto;
 }
-
 /* landscape/ portrait grid */
 .basic-gal {
     display: grid;
@@ -26,7 +25,6 @@ img {
     border: 3px solid #c90481;
     padding: 25px;
 }
-
 /* mixed grid */
 .cropped-gal {
     display: grid;
