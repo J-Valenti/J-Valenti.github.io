@@ -1,0 +1,97 @@
+/* Resets Below */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Resets Above */
+.single-column {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #ffa8ac;
+    padding: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+nav a {
+    color: #7c2050;
+    text-decoration: none;
+    width: 400px;
+    padding: 0px;
+    font-size: larger;
+}
+.link {
+    margin: 20px 0px;
+    margin-left: 100px;
+    padding: 0px;
+}
+/* header ^ */
+
+#centered-hero {
+    background-image: url("../images/urban-hi-res-1ui7.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+.content h1 {
+    font-size: 72px;
+    margin: 35px;
+}
+.content .btn {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+/* Hero ^ */
+
+.hm-gal {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hm-gal img {
+    flex: 1;
+    height: 250px;
+    gap: 25px;
+}
+/* gallery ^ */
+
+.card-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.card {
+    border: 5px solid #00ffc8;
+    padding: 25px;
+    text-align: center;
+}
+.card h3 {
+    margin: 0px;
+    font-size: 35px;
+}
+.card p {
+    margin: 25px 0px 0px;
+}
+/* Cards ^ */
