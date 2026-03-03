@@ -1,7 +1,40 @@
-body {
-    background-image: url("background-image");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+/* Resets Below */
+* {
+    box-sizing: border-box;
 }
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #1f5099;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Resets Above */
+.single-column {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+header {
+    background-color: #07176c;
+    padding: 25px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 55px;
+}
+nav .logo {
+    margin-right: auto;
+}
+nav a {
+    color: #fefdf3;
+    text-decoration: none;
+    padding: 5px;
+    font-size: larger;
+    margin: 15px;
+}
+/* header ^ */
