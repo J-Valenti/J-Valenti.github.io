@@ -5,6 +5,10 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/urban-14h7y.jpg");
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(20px);
 }
 img {
     width: 100%;
@@ -18,7 +22,7 @@ img {
 }
 
 header {
-    background-color: #ffa8ac;
+    background-color: #0d726a;
     padding: 25px;
 }
 
@@ -29,7 +33,7 @@ nav {
     gap: 50px;
 }
 nav a {
-    color: #7c2050;
+    color: white;
     text-decoration: none;
     width: 400px;
     padding: 0px;
@@ -56,24 +60,38 @@ nav a {
 .content h1 {
     font-size: 72px;
     margin: 35px;
+    background-color: #0d726a77;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
 }
 .content .btn {
-    background-color: black;
+    background-color: #08e4d285;
     color: white;
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
 }
 /* Hero ^ */
 
+#gallery {
+    text-align: center;
+    font-size: 48px;
+    color: #224744;
+}
 .hm-gal {
     display: flex;
     flex-wrap: wrap;
+    margin: 25px;
 }
 .hm-gal img {
     flex: 1;
     height: 250px;
     gap: 25px;
+    margin: 25px;
+    border: 4px solid #00ffea;
 }
 /* gallery ^ */
 
@@ -81,17 +99,23 @@ nav a {
     display: flex;
     gap: 25px;
     justify-content: center;
+    margin: 50px;
 }
 .card {
-    border: 5px solid #00ffc8;
-    padding: 25px;
+    border: 5px solid #00ffea;
+    padding: 50px;
     text-align: center;
+    margin: 25px;
+    background-color: #0d726a50;
+    backdrop-filter: blur(10px);
 }
 .card h3 {
     margin: 0px;
     font-size: 35px;
+    color: #faefef;
 }
-.card p {
-    margin: 25px 0px 0px;
+.card a {
+    text-decoration: none;
+    color: #ef9de9;
 }
 /* Cards ^ */
