@@ -134,3 +134,31 @@ nav a {
     color: #ef9de9;
 }
 /* Cards ^ */
+
+/* mobile query */
+@media screen and (max-width: 729px) {
+    header nav {
+        flex-wrap: wrap;
+    }
+    header nav .name {
+        flex: 100%;
+        margin-right: 0px;
+        text-align: center;
+    }
+    #gallery {
+        font-size: 48px;
+        margin: 50px;
+        padding: 50px;
+    }
+    .hm-gal {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px;
+    }
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .content h1 {
+        font-size: 36px;
+    }
+}
