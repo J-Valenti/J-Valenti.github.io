@@ -46,6 +46,7 @@ nav {
 }
 nav .name {
     margin-right: auto;
+    font-family: "Tilt Warp", sans-serif;
 }
 nav a {
     color: white;
