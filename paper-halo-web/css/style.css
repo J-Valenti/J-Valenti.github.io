@@ -1,0 +1,137 @@
+/* Resets Below */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("../images/steele_wall.jpg");
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(5px);
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+/* Resets Above */
+
+/* fonts */
+h1, 
+h3 {
+    font-family: "Tilt Warp", sans-serif;
+}
+a {
+    font-family: "Space Grotesk", sans-serif;
+}
+/* fonts ^ */
+.single-column {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 55px;
+}
+nav .name {
+    margin-right: auto;
+    font-family: "Tilt Warp", sans-serif;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: larger;
+    margin: 15px;
+}
+/* header ^ */
+
+#centered-hero {
+    background-image: url("../images/Paper_halo.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.content .btn {
+    background-color: #e7098385;
+    color: white;
+    display: inline-block;
+    padding: 30px 60px;
+    text-decoration: none;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    font-weight: 500;
+}
+/* Hero ^ */
+
+.card {
+    padding: 25px;
+    text-align: center;
+    flex: 1;
+}
+.card .pic {
+    height: 300px;
+}
+.card img {
+    height: 100%;
+}
+.card-container {
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    display: flex;
+    margin-bottom: 50px;
+}
+.card-container h3 {
+    text-align: center;
+    justify-content: center;
+}
+
+/* Cards^ */
+
+/* Social Media Below */
+#social {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* mobile query */
+@media screen and (max-width: 729px) {
+    header nav {
+        flex-wrap: wrap;
+    }
+    header nav .name {
+        flex: 100%;
+        margin-right: 0px;
+        text-align: center;
+    }
+    #gallery {
+        font-size: 48px;
+        margin: 50px;
+        padding: 50px;
+    }
+    .hm-gal {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px;
+    }
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .content h1 {
+        font-size: 36px;
+    }
+}
