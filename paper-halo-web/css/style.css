@@ -73,6 +73,11 @@ nav a {
     border-radius: 15px;
     backdrop-filter: blur(10px);
     font-weight: 500;
+    transition: background-color 0.5s, color 0.5s;
+}
+.btn:hover {
+    background-color: #0055ff85;
+    color: #ffffff;
 }
 /* Hero ^ */
 
@@ -121,7 +126,7 @@ nav a {
 
 /* Social Media Below */
 #social {
-    margin: 50px;
+    margin: 100px;
     display: flex;
     justify-content: center;
 }
