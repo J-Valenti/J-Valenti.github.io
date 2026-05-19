@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url("../images/crystal.jpg");
+    background-image: url("../images/neoncafe.jpg");
     background-size: cover;
     background-position: center center;
     backdrop-filter: blur(5px);
@@ -18,8 +18,8 @@ img {
     height: 150px;
 }
 .content {
-    width: 80%;
-    max-width: 900px;
+    width: 100%;
+    max-width: 1400px;
     margin: 0px auto;
     background-color: #ffffff98;
     backdrop-filter: blur(10px);
@@ -37,8 +37,8 @@ a {
 }
 /* fonts ^ */
 .single-column {
-    width: 90%;
-    max-width: 1200px;
+    width: 80%;
+    max-width: 900px;
     margin: 0px auto;
 }
 
@@ -66,32 +66,15 @@ nav img {
 /* header ^ */
 
 #centered-hero {
-    background-image: url("../images/Paper_halo.jpg");
+    background-image: url("../images/mystic_bites_ad.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    color: whitesmoke;
 }
 
-.content .btn {
-    background-color: #e7098385;
-    color: white;
-    display: inline-block;
-    padding: 30px 60px;
-    text-decoration: none;
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
-    font-weight: 500;
-    transition: background-color 0.5s, color 0.5s;
-}
-.btn:hover {
-    background-color: #0055ff85;
-    color: #ffffff;
-}
 /* Hero ^ */
 
 .card {
@@ -114,7 +97,7 @@ nav img {
     font-weight: 100;
     display: flex;
     margin-bottom: 50px;
-    color: rgb(255, 255, 255);
+    color: #000000;
 }
 .card-container h3 {
     text-align: center;
@@ -123,19 +106,6 @@ nav img {
 
 /* Cards^ */
 
-.tour {
-    background-color: #B3076585;
-    margin: 125px;
-    padding: 25px;
-    text-align: center;
-    color: rgb(255, 252, 254);
-    text-decoration: underline;
-}
-
-.dates {
-    color: #ffc4e5;
-    text-align: center;
-}
 
 /* Social Media Below */
 #social {
