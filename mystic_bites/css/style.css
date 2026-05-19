@@ -19,7 +19,7 @@ img {
 }
 .content {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 0px auto;
     background-color: #ffffff98;
     backdrop-filter: blur(10px);
