@@ -144,7 +144,12 @@ nav img {
 
 #footer {
     background-color: #000000;
+    color: white;
     padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 55px;
 }
 /* footer ^ */
 
