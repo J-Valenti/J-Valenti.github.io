@@ -13,16 +13,7 @@ img {
 /* Resets Above */
 
 /* first hero */
-#centered-hero {
-    background-image: url("../images/lonely-ocean.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 .content h1 {
     font-size: 72px;
     margin: 0px;
