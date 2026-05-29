@@ -79,18 +79,6 @@ nav img {
 }
 /* header ^ */
 
-#centered-hero {
-    background-image: url("../images/mystic_bites_ad.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Hero ^ */
-
 .card {
     padding: 25px;
     text-align: center;
