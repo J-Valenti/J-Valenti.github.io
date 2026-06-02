@@ -54,7 +54,7 @@ nav a {
 /* header ^ */
 
 #centered-hero {
-    background-image: url("../images/Paper_halo.jpg");
+    background-image: url("../images/paper_halo_v3.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -63,6 +63,15 @@ nav a {
     align-items: center;
     text-align: center;
     color: whitesmoke;
+}
+
+#centered-hero2 {
+    background-image: url("../images/paperhalo-hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .content .btn {
@@ -107,6 +116,18 @@ nav a {
 .card-container h3 {
     text-align: center;
     justify-content: center;
+}
+
+.btn {
+    background-color: #e7098385;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    font-weight: 500;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 /* Cards^ */
