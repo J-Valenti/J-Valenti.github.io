@@ -98,7 +98,6 @@ nav img {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     display: flex;
-    margin-bottom: 50px;
     color: #000000;
 }
 .card-container h3 {
@@ -125,7 +124,7 @@ nav img {
 #social {
     margin: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 /* social media ^ */
@@ -133,11 +132,11 @@ nav img {
 #footer {
     background-color: #000000;
     color: white;
-    padding: 25px;
+    padding: 25px auto;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    gap: 55px;
+    justify-content: center;
+    gap: 60px;
 }
 /* footer ^ */
 
@@ -150,16 +149,6 @@ nav img {
         flex: 100%;
         margin-right: 0px;
         text-align: center;
-    }
-    #gallery {
-        font-size: 48px;
-        margin: 50px;
-        padding: 50px;
-    }
-    .hm-gal {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 50px;
     }
     .card-container {
         flex-wrap: wrap;
