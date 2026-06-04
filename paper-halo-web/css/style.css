@@ -65,15 +65,6 @@ nav a {
     padding: 150px;
 }
 
-#centered-hero2 {
-    background-image: url("../images/paperhalo-hero.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
-
 .content .btn {
     background-color: #0055ff;
     color: white;
